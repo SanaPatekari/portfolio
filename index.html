@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sana Patekari | Data Science Portfolio</title>
+  <meta name="description" content="Portfolio of Sana Patekari: Data Science, ML, NLP, and analytics projects." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top">Sana Patekari</a>
+
+      <nav class="nav" id="nav">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" id="themeBtn" type="button" aria-label="Toggle theme">
+          <span id="themeBtnText">Light</span>
+        </button>
+        <button class="icon-btn mobile-only" id="menuBtn" type="button" aria-label="Open menu">Menu</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <p class="badge">Data Science · ML · NLP · Analytics</p>
+
+          <h1 class="hero-title">
+            I work across data analysis and machine learning to turn complex data into reliable insights.
+          </h1>
+
+          <p class="hero-subtitle">
+            Strong foundation in Python, SQL, statistical analysis, and visualization.
+            I focus on clean pipelines, reliable evaluation, and clear communication for technical and non-technical stakeholders.
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn primary" href="assets/Sana_Patekari_Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+            <a class="btn" href="https://github.com/SanaPatekari" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="btn" href="https://www.linkedin.com/in/sana-m-patekari-b9b9b3188/" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat">
+              <div class="stat-num">3+ yrs</div>
+              <div class="stat-label">Industry Experience</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">Python + SQL</div>
+              <div class="stat-label">Analytics + Pipelines</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">ML + NLP</div>
+              <div class="stat-label">Modeling + Evaluation</div>
+            </div>
+          </div>
+
+          <div class="hero-mini">
+            <div class="mini-row">
+              <span class="mini-k">Location</span>
+              <span class="mini-v">Houghton, MI</span>
+            </div>
+            <div class="mini-row">
+              <span class="mini-k">Email</span>
+              <a class="mini-v link-plain" href="mailto:patekarisana1998@gmail.com">patekarisana1998@gmail.com</a>
+            </div>
+            <div class="mini-row">
+              <span class="mini-k">Core Strengths</span>
+              <span class="mini-v">Data Quality · Modeling · Insights</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="profile-card">
+            <div class="profile-img-wrap">
+              <img
+                class="profile-img"
+                src="assets/images/profile.jpg"
+                alt="Profile photo"
+                onerror="this.style.display='none'; document.getElementById('noPhoto').style.display='flex';"
+              />
+              <div id="noPhoto" class="profile-fallback" style="display:none;">
+                <span>No photo yet</span>
+              </div>
+            </div>
+
+            <div class="profile-info">
+              <div class="profile-name">Sana Patekari</div>
+              <div class="profile-role">Data Science · ML · NLP · Analytics</div>
+              <div class="profile-meta">
+                <span>MS Data Science, Michigan Technological University</span>
+              </div>
+            </div>
+
+            <div class="profile-links">
+              <a class="link" href="#projects">View Projects</a>
+              <a class="link" href="#contact">Contact</a>
+            </div>
+          </div>
+
+           <div class="cert-card">
+			  <div class="cert-title">Certifications</div>
+
+			  <div class="chips cert-chips">
+				<a class="chip cert-chip" href="https://learn.microsoft.com/en-us/credentials/certifications/azure-data-scientist/"
+				   target="_blank" rel="noreferrer">
+				  Azure Data Scientist Associate
+				</a>
+
+				<a class="chip cert-chip" href="https://learn.microsoft.com/en-us/credentials/certifications/azure-data-engineer/"
+				   target="_blank" rel="noreferrer">
+				  Azure Data Engineer Associate
+				</a>
+
+				<a class="chip cert-chip" href="https://learn.microsoft.com/en-us/credentials/certifications/power-bi-data-analyst/"
+				   target="_blank" rel="noreferrer">
+				  Power BI Data Analyst Associate
+				</a>
+
+				<a class="chip cert-chip" href="https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"
+				   target="_blank" rel="noreferrer">
+				  Azure AI Fundamentals
+				</a>
+
+				<a class="chip cert-chip" href="https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/"
+				   target="_blank" rel="noreferrer">
+				  Azure Data Fundamentals
+				</a>
+
+				<a class="chip cert-chip" href="https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/"
+				   target="_blank" rel="noreferrer">
+				  Azure Fundamentals
+				</a>
+			  </div>
+            </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <p class="muted">Selected work with clear scope, methods, and results.</p>
+        </div>
+
+        <div class="toolbar">
+          <input id="projectSearch" class="input" type="text" placeholder="Search projects by name, tag, or keyword" />
+          <select id="tagFilter" class="select">
+            <option value="all">All tags</option>
+          </select>
+        </div>
+
+        <div class="grid" id="projectsGrid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head">
+          <h2>About</h2>
+          <p class="muted">How I approach data problems end to end.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="card">
+            <h3>What I do</h3>
+            <p>
+              I work on the full data lifecycle — from understanding the problem and preparing data, to modeling, evaluation, and communicating results.
+			  My strength lies in building clean, well-validated workflows using Python, SQL, statistics, and machine learning, and explaining outcomes clearly to both technical and non-technical audiences.
+
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>What I’m focused on</h3>
+            <p>
+              Right now, I’m focused on strengthening my applied data science and machine learning foundations through projects, research, and coursework.
+			  After working in industry earlier in my career, I’m intentionally spending time on robust preprocessing, feature engineering, model evaluation, and experimentation — ensuring I deeply understand why models work, not just how to deploy them.
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p class="muted">Organized to be quick to scan.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="card">
+            <h3>Programming and Data</h3>
+            <div class="chips">
+              <span class="chip">Python</span>
+              <span class="chip">SQL</span>
+              <span class="chip">R</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Machine Learning and Statistics</h3>
+            <div class="chips">
+              <span class="chip">Regression</span>
+              <span class="chip">Classification</span>
+              <span class="chip">Clustering</span>
+              <span class="chip">Feature Engineering</span>
+              <span class="chip">Model Evaluation</span>
+              <span class="chip">Experimental Analysis</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>NLP</h3>
+            <div class="chips">
+              <span class="chip">Text Preprocessing</span>
+              <span class="chip">Token Classification</span>
+              <span class="chip">Applied NLP Modeling</span>
+              <span class="chip">Clinical NLP</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Platforms and Tools</h3>
+            <div class="chips">
+              <span class="chip">Azure</span>
+              <span class="chip">Snowflake</span>
+              <span class="chip">Matplotlib</span>
+              <span class="chip">Seaborn</span>
+              <span class="chip">Analytical Reporting</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-head">
+          <h2>Experience</h2>
+          <p class="muted">Impact focused highlights.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-title">Research Assistant · Biomedical Data Science Lab · Michigan Technological University</div>
+            <div class="timeline-meta">May 2025 – Dec 2025 · USA</div>
+            <ul class="timeline-list">
+              <li>Applied Python, ML, and statistical methods to structured and unstructured datasets to improve quality, interpretability, and decision support.</li>
+              <li>Built NLP feature extraction workflows to identify patterns in large-scale datasets for downstream modeling.</li>
+              <li>Designed workflows for noisy, unstructured text to extract reliable signals for real-world predictive modeling settings.</li>
+              <li>Improved interoperability and consistency using FHIR standards to strengthen reliability of downstream analytics.</li>
+              <!--<li>Collaborated with faculty and engineers to translate analysis into practical use cases.</li>-->
+            </ul>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-title">Grader and Lab Assistant · SAT4650 Applied Computing in Python · Michigan Technological University</div>
+            <div class="timeline-meta">Sept 2025 – Dec 2025 · USA</div>
+            <ul class="timeline-list">
+              <li>Evaluated analytical and programming assignments for 20+ students with consistent grading and Python best practices.</li>
+              <li>Supported students through debugging, data manipulation guidance, and code reviews during lab sessions.</li>
+            </ul>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-title">Data Scientist · Capgemini Technology Services</div>
+            <div class="timeline-meta">Dec 2020 – Dec 2023 · India</div>
+            <ul class="timeline-list">
+              <li>Migrated 200+ ETL workflows to Snowflake, optimizing SQL transformations and improving pipeline performance by 35%.</li>
+              <li>Built a multimodal profanity detection system across live video, text, and document streams using deep learning and NLP.</li>
+              <li>Designed scalable pipelines for video processing, OCR-based text extraction, and automated moderation, achieving 92% compliance accuracy.</li>
+              <li>Designed and deployed a Bayesian recommendation approach in Python to model customer engagement behavior.</li>
+              <li>Automated data quality checks and anomaly detection using Python and SQL for proactive KPI monitoring.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="edu-card">
+          <div class="edu-title">Education</div>
+          <div class="edu-grid">
+            <div class="edu-item">
+              <div class="edu-name">Michigan Technological University</div>
+              <div class="edu-meta">MS Data Science · Jan 2024 – Dec 2025 · USA</div>
+            </div>
+            <div class="edu-item">
+              <div class="edu-name">D.K.T.E's Textile and Engineering Institute</div>
+              <div class="edu-meta">B.Tech Electronics and Telecommunication · Aug 2016 – May 2020 · India</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p class="muted">Best way to reach me.</p>
+        </div>
+
+        <div class="contact-card">
+          <div>
+            <div class="contact-label">Email</div>
+            <a class="contact-value" href="mailto:patekarisana1998@gmail.com">patekarisana1998@gmail.com</a>
+          </div>
+          <div>
+            <div class="contact-label">LinkedIn</div>
+            <a class="contact-value" href="https://www.linkedin.com/in/sana-m-patekari-b9b9b3188/" target="_blank" rel="noreferrer">
+              https://www.linkedin.com/in/sana-m-patekari-b9b9b3188/
+            </a>
+          </div>
+          <div>
+            <div class="contact-label">GitHub</div>
+            <a class="contact-value" href="https://github.com/SanaPatekari" target="_blank" rel="noreferrer">
+              https://github.com/SanaPatekari
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span class="muted">© <span id="year"></span> Sana Patekari</span>
+      <a class="muted" href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
